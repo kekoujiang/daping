@@ -1,0 +1,814 @@
+.green {
+  color: #48ff89 !important;
+  text-shadow: 0 0 6px #48ff89 !important;
+}
+.layui-table-tips-main {
+  background: #303030e8;
+  border: none;
+  color: #fff;
+  letter-spacing: 2px;
+}
+.layui-laypage .layui-laypage-curr .layui-laypage-em {
+  background: rgba(0, 182, 240, 0.82);
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 182, 240, 0.82);
+}
+.layui-table-page .layui-laypage a,
+.layui-table-page .layui-laypage span.layui-laypage-curr {
+  margin-right: 10px;
+}
+.layui-layer-page {
+  background: none !important;
+}
+body {
+  background: #020619;
+}
+body .biyue-body {
+  background-image: -webkit-radial-gradient(circle at top, #4b4b4b, #272727);
+  background-image: radial-gradient(circle at top, #4b4b4b, #272727);
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  overflow: hidden;
+}
+body .biyue-body .body-box {
+  width: 100%;
+  height: 100%;
+  min-width: 1920px;
+  min-height: 850px;
+  position: relative;
+}
+body .biyue-body .body-box header.header {
+  width: 100%;
+  height: 80px;
+  position: relative;
+  background: url("../images/bt.png") no-repeat center center;
+  background-size: cover;
+  z-index: 1000;
+}
+body .biyue-body .body-box header.header .other {
+  width: 100%;
+  height: 46px;
+  position: absolute;
+  top: 7px;
+  left: 0;
+  font-size: 0;
+  letter-spacing: 0;
+}
+body .biyue-body .body-box header.header .other .userInfo {
+  width: 40%;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  background-size: 100% auto;
+  position: absolute;
+  right: 0;
+  color: #fff;
+  text-shadow: 0 0 1px #fff;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 3px;
+  text-align: right;
+}
+body .biyue-body .body-box header.header .other .userInfo span {
+  margin: 0 25px 0 5px;
+}
+body .biyue-body .body-box header.header .other .time {
+  width: 40%;
+  height: 40px;
+  line-height: 40px;
+  display: inline-block;
+  background-size: 100% auto;
+  position: absolute;
+  left: 0;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+body .biyue-body .body-box header.header .other .time i {
+  position: absolute;
+  left: 20px;
+  top: -3px;
+}
+body .biyue-body .body-box header.header .other .time span {
+  margin: 0 6px 0 66px;
+}
+body .biyue-body .body-box header.header .other .time span label {
+  text-shadow: 0 0 1px #fff;
+  font-size: 18px;
+  font-weight: bold;
+  position: relative;
+  top: -1px;
+  letter-spacing: 3px;
+}
+body .biyue-body .body-box header.header .title {
+  width: 700px;
+  height: 100%;
+  position: relative;
+  margin: auto;
+  z-index: 1000;
+  text-align: center;
+}
+body .biyue-body .body-box header.header .title img {
+  margin-top: 20px;
+}
+body .biyue-body .body-box header.header .title i {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border: 1px solid #79a3bf;
+}
+body .biyue-body .body-box header.header .title .lt {
+  box-shadow: 1px 1px 1px #89bad6 inset;
+  border-right: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .biyue-body .body-box header.header .title .rt {
+  box-shadow: -1px 1px 1px #89bad6 inset;
+  border-left: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body .biyue-body .body-box header.header .title .lb {
+  box-shadow: 1px -1px 1px #89bad6 inset;
+  border-right: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body .biyue-body .body-box header.header .title .rb {
+  box-shadow: -1px -1px 1px #89bad6 inset;
+  border-left: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body .biyue-body .body-box .content {
+  width: 100%;
+  box-sizing: border-box;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  z-index: 10;
+}
+body .biyue-body .body-box .content .m-box {
+  position: relative;
+  background: rgba(0, 31, 129, 0.1);
+  border: 2px solid #142f58;
+}
+body .biyue-body .body-box .content .m-box .m-title {
+  width: 100%;
+  border: 2px solid #2176ab;
+  background: #0a1e53;
+  height: 40px;
+  line-height: 36px;
+  letter-spacing: 4px;
+  color: #fff;
+  text-shadow: 0 0 5px #fff;
+  padding-left: 35px;
+  box-sizing: border-box;
+  font-size: 16px;
+  position: relative;
+}
+body .biyue-body .body-box .content .m-box .m-title i {
+  display: block;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: #dfdfdf;
+  position: absolute;
+  left: 16px;
+  top: 13px;
+  box-shadow: 0 0 5px #fff;
+}
+body .biyue-body .body-box .content .m-box .m-title i.blue {
+  background: #10f1ff;
+  box-shadow: 0 0 5px #10f1ff;
+}
+body .biyue-body .body-box .content .m-box .m-title i.yellow {
+  background: #ffd97f;
+  box-shadow: 0 0 5px #ffd97f;
+}
+body .biyue-body .body-box .content .m-box .m-title u {
+  display: block;
+  position: absolute;
+  right: -2px;
+  bottom: -2px;
+  border-bottom: 20px solid #151433;
+  border-left: 20px solid transparent;
+  border-right: 0px solid transparent;
+}
+body .biyue-body .body-box .content .m-box .m-title u span {
+  display: block;
+  position: absolute;
+  background: #2176ab;
+  height: 27px;
+  width: 2px;
+  left: -11px;
+  top: -4px;
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+body .biyue-body .body-box .content .m-box .lt {
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border: 2px solid #0955a0;
+  width: 12px;
+  height: 12px;
+  border-radius: 3px 0 0 0;
+  border-right: transparent;
+  border-bottom: transparent;
+}
+body .biyue-body .body-box .content .m-box .rt {
+  position: absolute;
+  top: -2px;
+  right: -2px;
+  border: 2px solid #0955a0;
+  width: 12px;
+  height: 12px;
+  border-radius: 0 3px 0 0;
+  border-left: transparent;
+  border-bottom: transparent;
+}
+body .biyue-body .body-box .content .m-box .lb {
+  position: absolute;
+  bottom: -2px;
+  left: -2px;
+  border: 2px solid #0955a0;
+  width: 12px;
+  height: 12px;
+  border-radius: 0 0 0 3px;
+  border-right: transparent;
+  border-top: transparent;
+}
+body .biyue-body .body-box .content .m-box .rb {
+  position: absolute;
+  bottom: -2px;
+  right: -2px;
+  border: 2px solid #0955a0;
+  width: 12px;
+  height: 12px;
+  border-radius: 0 0 3px 0;
+  border-left: transparent;
+  border-top: transparent;
+}
+body .biyue-body .body-box .content #map {
+  width: 100%;
+  height: 100%;
+}
+body .biyue-body .body-box .content #echartsMap {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 800px;
+  height: 500px;
+}
+body .biyue-body .body-box .content #pieCharts {
+  position: absolute;
+  right: 0;
+  width: 400px;
+  height: 85%;
+  top: 10%;
+  z-index: 10000;
+}
+body .biyue-body .body-box .content #pieCharts #pieOne {
+  width: 100%;
+  height: 40%;
+}
+body .biyue-body .body-box .content #pieCharts #pieTwo {
+  width: 100%;
+  height: 40%;
+}
+body .biyue-body .rightPopBox {
+  position: absolute;
+  right: -400px;
+  width: 400px;
+  height: 85%;
+  top: 10%;
+  background: rgba(12, 12, 12, 0.72);
+  z-index: 10000;
+  -webkit-transition: right 0.2s;
+  -moz-transition: right 0.2s;
+  -ms-transition: right 0.2s;
+  -o-transition: right 0.2s;
+  transition: right 0.2s;
+}
+body .biyue-body .rightPopBox .rightPop {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+body .biyue-body .rightPopBox .rightPop .title {
+  font-size: 18px;
+  color: #fff;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 90px;
+}
+body .biyue-body .rightPopBox .rightPop .title i {
+  background: url("../images/new.png") no-repeat center;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  border: none;
+  left: 5px;
+  top: 4px;
+}
+body .biyue-body .rightPopBox .rightPop table {
+  width: 100%;
+  color: #eae9e9;
+}
+body .biyue-body .rightPopBox .rightPop table thead {
+  color: #f8d36b;
+  font-size: 18px;
+  background: rgba(56, 56, 56, 0.78);
+  letter-spacing: 4px;
+}
+body .biyue-body .rightPopBox .rightPop table thead tr {
+  height: 50px;
+}
+body .biyue-body .rightPopBox .rightPop table tbody tr {
+  height: 50px;
+  font-size: 13px;
+}
+body .biyue-body .rightPopBox .rightPop table tbody tr td {
+  padding: 0 10px;
+  letter-spacing: 2px;
+  text-align: justify;
+}
+body .biyue-body .rightPopBox .rightPop table tbody tr td:nth-of-type(1) {
+  padding-left: 18px;
+}
+body .biyue-body .rightPopBox .rightPop table tbody tr td:nth-of-type(2) {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+body .biyue-body .rightPopBox .rightPop table tbody tr td:nth-of-type(3) {
+  text-align: center;
+}
+body .biyue-body .rightPopBox .rightPop table tbody tr:nth-of-type(2n) {
+  background: rgba(56, 56, 56, 0.78);
+}
+body .biyue-body .rightPopBox .btnNoOff {
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 90px;
+  left: -36px;
+  top: 50%;
+  margin-top: -45px;
+  cursor: pointer;
+}
+body .biyue-body .rightPopBox .btnNoOff.open {
+  background: url("../images/left.png") no-repeat;
+  background-size: cover;
+}
+body .biyue-body .rightPopBox .btnNoOff.close {
+  background: url("../images/right.png") no-repeat;
+  background-size: cover;
+}
+body .biyue-body .rightPopBox i {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #0796c3;
+}
+body .biyue-body .rightPopBox .lt {
+  box-shadow: 1px 1px 1px #0796c3 inset;
+  border-right: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .biyue-body .rightPopBox .rt {
+  box-shadow: -1px 1px 1px #0796c3 inset;
+  border-left: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body .biyue-body .rightPopBox .lb {
+  box-shadow: 1px -1px 1px #0796c3 inset;
+  border-right: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body .biyue-body .rightPopBox .rb {
+  box-shadow: -1px -1px 1px #0796c3 inset;
+  border-left: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body .biyue-body .popBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 12, 12, 0.72);
+  z-index: 10000;
+}
+body .biyue-body .popBox .pop {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+}
+body .biyue-body .popBox .pop .title {
+  font-size: 18px;
+  color: #fff;
+  height: 60px;
+  line-height: 60px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  position: relative;
+  padding-left: 72px;
+}
+body .biyue-body .popBox .pop .title i {
+  background: url("../images/news.png") no-repeat center;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 80px;
+  border: none;
+  left: 5px;
+  top: 8px;
+}
+body .biyue-body .popBox .pop .layui-border-box {
+  border: none;
+  margin: 0;
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-box {
+  border: none;
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-box .layui-table-header {
+  background: none;
+  border: none;
+  background: rgba(56, 56, 56, 0.78);
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-box .layui-table-header th {
+  color: #f8d36b;
+  font-size: 18px;
+  letter-spacing: 4px;
+  text-align: center;
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-page {
+  border: none;
+  background: rgba(95, 104, 105, 0.34);
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-page * {
+  color: #fff;
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-page input {
+  border: none;
+  background: none;
+  border-bottom: 1px solid #dfdfdf;
+}
+body .biyue-body .popBox .pop .layui-border-box .layui-table-page button {
+  background: rgba(0, 182, 240, 0.82);
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 182, 240, 0.82);
+}
+body .biyue-body .popBox .pop table {
+  width: 100%;
+  color: #fff;
+  background: none;
+}
+body .biyue-body .popBox .pop table tr {
+  background: none;
+  height: 50px;
+}
+body .biyue-body .popBox .pop table tr td {
+  border: none;
+  font-size: 13px;
+  letter-spacing: 3px;
+}
+body .biyue-body .popBox .pop table tr th {
+  border: none;
+}
+body .biyue-body .popBox .pop table tr:nth-of-type(2n) {
+  background: rgba(56, 56, 56, 0.78);
+}
+body .biyue-body .popBox > u.close {
+  background: url("../images/close.png") no-repeat center;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 10px;
+  top: 8px;
+  z-index: 1000;
+}
+body .biyue-body .popBox .btnNoOff {
+  display: block;
+  position: absolute;
+  width: 36px;
+  height: 90px;
+  left: -36px;
+  top: 50%;
+  margin-top: -45px;
+  cursor: pointer;
+}
+body .biyue-body .popBox .btnNoOff.open {
+  background: url("../images/left.png") no-repeat;
+  background-size: cover;
+}
+body .biyue-body .popBox .btnNoOff.close {
+  background: url("../images/right.png") no-repeat;
+  background-size: cover;
+}
+body .biyue-body .popBox > i {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #0796c3;
+}
+body .biyue-body .popBox .lt {
+  box-shadow: 1px 1px 1px #0796c3 inset;
+  border-right: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .biyue-body .popBox .rt {
+  box-shadow: -1px 1px 1px #0796c3 inset;
+  border-left: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body .biyue-body .popBox .lb {
+  box-shadow: 1px -1px 1px #0796c3 inset;
+  border-right: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body .biyue-body .popBox .rb {
+  box-shadow: -1px -1px 1px #0796c3 inset;
+  border-left: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body .biyue-body .viewBox {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: rgba(12, 12, 12, 0.9);
+  z-index: 10000;
+}
+body .biyue-body .viewBox .view {
+  width: 100%;
+  height: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  overflow: auto;
+}
+body .biyue-body .viewBox .view .title {
+  font-size: 18px;
+  color: #fff;
+  letter-spacing: 4px;
+  font-weight: bold;
+  position: relative;
+  border-bottom: 1px solid #696969;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+}
+body .biyue-body .viewBox .view .title h2 {
+  font-size: 26px;
+  text-shadow: 0 0 3px #fff;
+  letter-spacing: 8px;
+  margin-bottom: 20px;
+}
+body .biyue-body .viewBox .view .title span {
+  position: relative;
+  padding-left: 35px;
+  font-weight: normal;
+  font-size: 16px;
+  margin-right: 20px;
+}
+body .biyue-body .viewBox .view .title span i {
+  display: block;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  border: none;
+  left: 0;
+  top: -8px;
+}
+body .biyue-body .viewBox .view .title .viewTime i {
+  background: url("../images/time_yellow.png") no-repeat center;
+  background-size: contain;
+}
+body .biyue-body .viewBox .view .title .viewPerson i {
+  background: url("../images/people.png") no-repeat center;
+  background-size: contain;
+}
+body .biyue-body .viewBox .view .title .viewLocation i {
+  background: url("../images/location.png") no-repeat center;
+  background-size: contain;
+}
+body .biyue-body .viewBox .view .content {
+  color: #fff;
+  font-size: 16px;
+  letter-spacing: 4px;
+  line-height: 26px;
+}
+body .biyue-body .viewBox .view .content img {
+  float: left;
+  max-width: 400px;
+  margin: 0 14px 0 0;
+}
+body .biyue-body .viewBox .view .content p {
+  white-space: pre-wrap;
+  text-align: justify;
+}
+body .biyue-body .viewBox > u.close {
+  background: url("../images/close.png") no-repeat center;
+  background-size: contain;
+  display: block;
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  right: 10px;
+  top: 8px;
+  z-index: 1000;
+}
+body .biyue-body .viewBox > i {
+  display: block;
+  width: 14px;
+  height: 14px;
+  border: 1px solid #0796c3;
+}
+body .biyue-body .viewBox .lt {
+  box-shadow: 1px 1px 1px #0796c3 inset;
+  border-right: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+body .biyue-body .viewBox .rt {
+  box-shadow: -1px 1px 1px #0796c3 inset;
+  border-left: transparent;
+  border-bottom: transparent;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+body .biyue-body .viewBox .lb {
+  box-shadow: 1px -1px 1px #0796c3 inset;
+  border-right: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+body .biyue-body .viewBox .rb {
+  box-shadow: -1px -1px 1px #0796c3 inset;
+  border-left: transparent;
+  border-top: transparent;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+body .m-null {
+  position: absolute;
+  color: #fff;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+  letter-spacing: 4px;
+  text-shadow: 0 0 4px #fff;
+}
+/* 美化滚动条*/
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+  background-color: #bde6ff;
+  border-radius: 1px;
+  -webkit-box-shadow: inset 1px 1px 0 rgba(0, 0, 0, 0.1);
+}
+::-webkit-scrollbar {
+  width: 4px;
+  height: 8px;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
+.mapMarker {
+  width: 40px;
+  height: 40px;
+  position: relative;
+}
+.mapMarker .vr {
+  display: block;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  background: #00fff5;
+  background-size: 100% 100%;
+  z-index: 99;
+  box-shadow: 0px 0px 20px 5px #209fff;
+  cursor: pointer;
+}
+.mapMarker .vr_wrap {
+  background: #00fff5;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  width: 15px;
+  height: 15px;
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  box-shadow: 0px 0px 50px 10px #00fff5;
+  animation: mymove 2s infinite;
+  border-radius: 50%;
+}
+.mapMarker .vr_wrap2 {
+  background: #00fff5;
+  opacity: 0.9;
+  filter: alpha(opacity=90);
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  position: absolute;
+  left: 18px;
+  top: 22px;
+  box-shadow: 0px 0px 50px 10px #00fff5;
+  animation: mymove1 2s infinite;
+}
+@keyframes mymove {
+  0% {
+    box-shadow: 0px 0px 0px 2px #00fff5;
+  }
+  100% {
+    box-shadow: 0px 0px 0px 15px #00fff5;
+  }
+  100% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+}
+@keyframes mymove1 {
+  0% {
+    box-shadow: 0px 0px 0px 2px #00fff5;
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+  50% {
+    box-shadow: 0px 0px 0px 15px #00fff5;
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+    filter: alpha(opacity=0);
+  }
+}
+/*# sourceMappingURL=index.css.map */

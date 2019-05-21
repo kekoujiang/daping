@@ -1,0 +1,206 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" href="./css/base.css"/>
+    <link rel="stylesheet" href="./plugins/layui/css/layui.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <!--[if lt IE 9]>
+    <script type="text/javascript" src="./plugins/lib/html5.js"></script>
+    <script type="text/javascript" src="./plugins/lib/respond.min.js"></script>
+    <script type="text/javascript" src="./plugins/lib/PIE_IE678.js"></script>
+    <![endif]-->
+</head>
+
+<body class="">
+<div class="biyue-body">
+    <div class="body-box">
+        <header class="header">
+            <div class="title">
+                <img src="./images/title.png" alt="">
+            </div>
+            <div class="other">
+                <div class="userInfo">
+                    <label>值班领导:</label>
+                    <span>张三</span>
+                    <label>值班员:</label>
+                    <span>李四</span>
+                </div>
+                <div class="time">
+                    <i><img src="./images/time-w.png" alt=""></i>
+                    <span>0000-00-00 00:00:00 <label>星期日</label></span>
+                </div>
+                <i class="t"></i>
+                <i class="b"></i>
+            </div>
+        </header>
+        <div class="content">
+            <div id="echartsMap" style="display: none"></div>
+            <div id="map" style=""></div>
+            <div id="pieCharts" style="display: none">
+                <div id="pieOne"></div>
+                <div id="pieTwo"></div>
+            </div>
+        </div>
+    </div>
+    <div class="rightPopBox">`
+        <div class="rightPop">
+            <div class="title">
+                <span><i></i>最新新闻列表</span>
+            </div>
+            <table >
+                <thead>
+                <tr>
+                    <th width="100px">新闻点</th>
+                    <th >标题</th>
+                    <th width="120px">时间</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                <tr>
+                    <td>武汉大学</td>
+                    <td>标题最长二十二字,文字过长换行显示,显示不...</td>
+                    <td>2018-08-06</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+        <u class="open btnNoOff"></u>
+        <i class="lt"></i>
+        <i class="rt"></i>
+        <i class="lb"></i>
+        <i class="rb"></i>
+    </div>
+    <div class="popBox" style="display: none">
+        <div class="pop">
+            <div class="title">
+                <span><i></i>新闻详细列表 (<label>武汉大学</label>)</span>
+            </div>
+            <table id="newsList" lay-filter="test"></table>
+        </div>
+        <u class="close"></u>
+        <i class="lt"></i>
+        <i class="rt"></i>
+        <i class="lb"></i>
+        <i class="rb"></i>
+    </div>
+    <div class="viewBox" style="display: none">
+        <div class="view">
+            <div class="title">
+                <h2>--</h2>
+                <span class="viewTime"><i></i><label>0000-00-00 00:00:00</label></span>
+                <span class="viewPerson"><i></i><label>--</label></span>
+                <span class="viewLocation"><i></i><label>--</label></span>
+            </div>
+            <div class="content">
+                <img src="" alt="">
+                <p> </p>
+            </div>
+        </div>
+        <u class="close"></u>
+        <i class="lt"></i>
+        <i class="rt"></i>
+        <i class="lb"></i>
+        <i class="rb"></i>
+    </div>
+</div>
+<script type="text/html" id="status">
+    {{#  if(d.status===1){ }}
+    <span style="color:#00f490;text-shadow: 0 0 2px #00f490">已发稿</span>
+    {{#  } else { }}
+    <span style="color:#f7777c;text-shadow: 0 0 2px #f7777c">待审核</span>
+    {{#  } }}
+</script>
+<script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=3bb801b79151585f9534ed9ed7ff280d"></script>
+<script type="text/javascript" src="http://api.map.baidu.com/getscript?v=2.0&ak=3bb801b79151585f9534ed9ed7ff280d&services=&t=20180201111639"></script>
+<script type="text/javascript" src="./plugins/jquery/jquery-1.9.1.min.js"></script>
+<script type="text/javascript" src="./plugins/layui/layui.all.js"></script>
+<script type="text/javascript" src="./js/common/jquery.slimscroll.js"></script>
+<script type="text/javascript" src="./js/common/echarts.min.js"></script>
+<script type="text/javascript" src="./js/common/biYue.js"></script>
+<script type="text/javascript" src="./js/index.js"></script>
+<script>
+    $(function () {
+        indexPage.getMapData();
+        indexPage.time();
+        indexPage.getView();
+        indexPage.init();
+        indexPage.rightPop();
+        // indexPage.echarts();
+        biyue.scroll(".view")
+    })
+</script>
+</body>
+</html>
